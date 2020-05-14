@@ -1,4 +1,4 @@
-require_relative '../board'
+require_relative '../src/board'
 
 describe Board do
     context 'with initialization' do

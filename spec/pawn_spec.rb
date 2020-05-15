@@ -3,7 +3,7 @@ require_relative '../src/pawn'
 describe Pawn do
     let(:pawn) { Pawn.new }
     
-    context "when given current cell number of the matrix" do
+    context "when given current cell number of the chess board" do
         it "should return the next possible cell number of Pawn" do
             expect(pawn.next_cell('E5')).to eql("F5, E6, D5, E4")
         end

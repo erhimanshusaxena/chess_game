@@ -13,6 +13,3 @@ class Bishop < Piece
         return arr
     end
 end
-
-b = Bishop.new
-puts b.next_cell("H1").inspect

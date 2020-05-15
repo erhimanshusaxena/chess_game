@@ -10,6 +10,3 @@ class Pawn < Piece
         return arr
     end
 end
-
-p = Pawn.new
-puts p.next_cell("H1").inspect

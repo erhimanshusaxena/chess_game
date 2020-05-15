@@ -3,8 +3,8 @@ require_relative '../src/rook'
 describe Rook do
     let(:rook) { Rook.new }
     
-    context "when given current cell number of the matrix" do
-        it "should return the next possible cell number of Pawn" do
+    context "when given current cell number of the chess board" do
+        it "should return the next possible cell number of Rook" do
             expect(rook.next_cell('E5')).to eql("E1, A5, E2, B5, E3, C5, E4, D5, E6, F5, E7, G5, E8, H5")
         end
         it "should not return cell number out of the board" do

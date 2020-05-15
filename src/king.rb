@@ -15,6 +15,3 @@ class King < Piece
         return arr
     end
 end
-
-k = King.new
-puts k.next_cell("B2").inspect

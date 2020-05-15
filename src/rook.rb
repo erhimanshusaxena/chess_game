@@ -10,6 +10,3 @@ class Rook < Piece
         return arr
     end
 end
-
-r = Rook.new
-puts r.next_cell("H1").inspect

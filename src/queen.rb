@@ -11,6 +11,3 @@ class Queen < Piece
         return arr
     end
 end
-
-q = Queen.new
-puts q.next_cell("A1").inspect

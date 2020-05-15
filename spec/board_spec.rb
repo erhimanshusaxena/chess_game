@@ -3,8 +3,6 @@ require_relative '../src/board'
 describe Board do
     let(:board) { Board.new }
     context 'with initialization' do
-        
-
         it "should create a matrix" do
             expect(board.cells.instance_of?(Array)).to eq(true)
         end
